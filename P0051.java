@@ -53,6 +53,7 @@ public class P0051 {
         //loop until user input correct
         while (true) {
             String result = in.nextLine().trim();
+           //check the value of the variable result
             if (result.isEmpty()) {
                 System.err.println("Not empty");
             } else if (result.equalsIgnoreCase("+") || result.equalsIgnoreCase("-")
